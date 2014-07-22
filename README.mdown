@@ -5,6 +5,8 @@ This fork makes the Facebook SDK for iOS usable with XCode 6.0 beta 3. The beta 
 
 It refactors version `3.16.0` of the Facebook SDK for iOS so that the `FBGraphObject` protocol is now named `FBGraphObjectProtocol`.
 
+**Update:** Beta 4 also has some issues with the way the Facebook SDK uses enums. [Check this out](https://github.com/pgaspar/facebook-ios-sdk/pull/1) (thanks [ellisw](https://github.com/ellisw)).
+
 To use this workaround, include this in your Podfile:
 
 ```ruby
