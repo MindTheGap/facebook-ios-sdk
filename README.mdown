@@ -10,7 +10,7 @@ It refactors version `3.16.0` of the Facebook SDK for iOS so that the `FBGraphOb
 To use this workaround **with beta 4**, include this in your Podfile:
 
 ```ruby
-pod 'Facebook-iOS-SDK', :git => 'https://github.com/pgaspar/facebook-ios-sdk.git'
+pod 'Facebook-iOS-SDK', :git => 'https://github.com/pgaspar/facebook-ios-sdk.git', :branch => 'beta4'
 ```
 
 Otherwise, if you're using **beta 3**, use this instead:
