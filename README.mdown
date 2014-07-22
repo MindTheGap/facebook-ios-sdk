@@ -7,10 +7,16 @@ It refactors version `3.16.0` of the Facebook SDK for iOS so that the `FBGraphOb
 
 **Update:** Beta 4 also has some issues with the way the Facebook SDK uses enums. [Check this out](https://github.com/pgaspar/facebook-ios-sdk/pull/1) (thanks [ellisw](https://github.com/ellisw)).
 
-To use this workaround, include this in your Podfile:
+To use this workaround **with beta 4**, include this in your Podfile:
 
 ```ruby
 pod 'Facebook-iOS-SDK', :git => 'https://github.com/pgaspar/facebook-ios-sdk.git'
+```
+
+Otherwise, if you're using **beta 3**, use this instead:
+
+```ruby
+pod 'Facebook-iOS-SDK', :git => 'https://github.com/pgaspar/facebook-ios-sdk.git', :branch => 'beta3'
 ```
 
 Don't forget to run `pod update Facebook-iOS-SDK` after that.
